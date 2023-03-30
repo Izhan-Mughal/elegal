@@ -36,6 +36,11 @@
   padding: 20px;
   left: -8%;
 }
+.bg__line{
+  background-image: url('../../public/Lines.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
 @media (max-width:991px) {
   .fs__5{
     font-size: 15px !important;

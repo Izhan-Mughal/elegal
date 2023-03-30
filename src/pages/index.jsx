@@ -21,7 +21,7 @@ export default function Home() {
 
         <section className="container-fluid">
           <div className="row mx-0 vh-100 mt-3 radius gap-lg-0 gap-5">
-            <div className="col-lg-6 px-0 bg-dark radius">
+            <div className="col-lg-6 px-0 bg-dark bg__line radius">
               <div className="container-fluid px-4">
                 <div className="pt-4">
                   <img src="Logo.png" alt="" />
