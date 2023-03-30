@@ -15,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="w-100 bg-primary py-1 text-white text-center fs-5 text-uppercase">
+        <div className="w-100 bg-primary py-1 text-white text-center fs-5 text-uppercase fs__5">
           Enter Email to receive $10 OFF
         </div>
 
@@ -26,10 +26,10 @@ export default function Home() {
                 <div className="pt-4">
                   <img src="Logo.png" alt="" />
                 </div>
-                <h1 className="pt-5 mt-5 text-white fw-bold display-1">
+                <h1 className="pt-5 mt-5 text-white fw-bold display-1 text-lg-start text-center">
                   Title
                 </h1>
-                <p className="text-white-50">
+                <p className="text-white-50 ">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquam numquam beatae <br className="d-lg-block d-none" />{" "}
                   amet unde corrupti pariatur ipsum, harum dolor saepe.
@@ -46,7 +46,7 @@ export default function Home() {
                   <br className="d-lg-block d-none" /> aliquid corporis quisquam
                   ad repudiandae dolore at.
                 </p>
-                <div className="mt-5 pt-4 mb-3 d-flex gap-5 align-items-center flex-lg-nowrap flex-wrap">
+                <div className="mt-5 pt-4 mb-3 d-flex gap-lg-5 gap-4 align-items-center flex-lg-nowrap flex-wrap justify-content-center justify-content-lg-start">
                   <div className="socialbtn">
                     <i className="fa-brands fa-twitter"></i> Post To Twitter
                   </div>
@@ -66,7 +66,7 @@ export default function Home() {
         </section>
         <section className="mt-5 pt-4">
           <div className="container">
-            <div className="h1 text-center">Motto</div>
+            <div className="h1 text-center mb-lg-0 mb-4">Motto</div>
             <div className="row  gap-lg-0 gap-5 mx-0 align-items-start">
               <div className="col-lg-6">
                 <img src="desk.png" className="img-fluid" alt="" />
